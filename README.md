@@ -10,5 +10,5 @@ Extensões npm:
 react axios,
 react icons,
 emailjs ,
-react aos,
-react type animation,
+react aos e
+react type animation.
