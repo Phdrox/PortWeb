@@ -23,18 +23,14 @@ const submitEmail=(e:FormEvent<HTMLFormElement>)=>{
  e.preventDefault()
  emailjs.sendForm('service_8a1uytl', 'template_xnhm6cn',fomulario.current, 'VumdI4nUsZPw2FE9L')
  .then(() => {
-     setArea('')
-     setEmail('')
-     setName('')
+  
      setSuccess('Enviado com sucesso')
  }, (error) => {
      console.log(error.text);
  });
 };
  
-const [name,setName]=useState('');
-const [textarea,setArea]=useState('');
-const [email,setEmail]=useState('');
+
 const [success,setSuccess]=useState('');
 
   
@@ -53,11 +49,11 @@ return (
     <form ref={fomulario} onSubmit={submitEmail} className='flex flex-col  justify-center gap-2 bg-white phone:w-10/12  p-4 rounded-lg tablet:w-3/4 w-6/12'>
     <h2 className='p-2 text-white font-bold m-3  rounded p-2 bg-blue-500 '>Envie seu E-mail</h2>
       <label className='text-green-500 text-left font-medium '>Nome</label>
-      <input type="text" name="from_name" className='h-10 rounded placeholder:pl-2 border-2 w-full' placeholder='Insira seu Nome' value={name}/>
+      <input type="text" name="from_name" className='h-10 rounded placeholder:pl-2 border-2 w-full' placeholder='Insira seu Nome' />
       <label className='text-green-500 text-left font-medium'>Email</label>
-      <input type="email" name="user_email" className='w-full h-10 rounded placeholder:pl-2 border-2' placeholder='Insira seu e-mail' value={email}/>
+      <input type="email" name="user_email" className='w-full h-10 rounded placeholder:pl-2 border-2' placeholder='Insira seu e-mail' />
       <label className='text-green-500 text-left font-medium'>Mensagem</label>
-      <textarea name="message" className='w-full h-72 placeholder:pl-2 rounded border-2'  placeholder='Escreva sua mensagem...' value={textarea}/>
+      <textarea name="message" className='w-full h-72 placeholder:pl-2 rounded border-2'  placeholder='Escreva sua mensagem...'/>
       <input type="submit" value="Enviar" className='text-white bg-gradient-to-r to-blue-500 
       from-green-400 p-3 w-full rounded cursor-pointer my-3 transition duration-75 
       hover:bg-gradient-to-r hover:to-black hover:from-black 
