@@ -22,7 +22,7 @@ var fomulario= useRef<any>('');
 const submitEmail=(e:FormEvent<HTMLFormElement>)=>{
  e.preventDefault()
  emailjs.sendForm('service_8a1uytl', 'template_xnhm6cn',fomulario.current, 'VumdI4nUsZPw2FE9L')
- .then((result) => {
+ .then(() => {
      setArea('')
      setEmail('')
      setName('')

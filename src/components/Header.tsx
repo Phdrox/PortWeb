@@ -30,7 +30,7 @@ function Header() {
        </h1> 
         <div className=' w-full flex flex-col items-center mt-20'>
             
-            <a className='p-4 bg-gradient-to-r from-green-400 to-blue-400  
+            <a  href='#footer'className='p-4 bg-gradient-to-r from-green-400 to-blue-400  
              hover:bg-gradient-to-r hover:from-blue-400 hover:to-green-400  
              cursor-pointer rounded-full w-64 mb-7
              
