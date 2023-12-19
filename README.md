@@ -4,7 +4,7 @@ Meu portifólio,por irá encontrar alguns detalhes sobre mim e o contato com a T
 
 ----------------------------------------------
 
-Tecnologias utilizadas: Vite,React,Tailwind, Typescript.
+Tecnologias utilizadas: Vite,React,Tailwind e Typescript.
 
 Extensões npm:
 react axios
