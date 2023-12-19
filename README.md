@@ -7,8 +7,8 @@ Meu portifólio,por irá encontrar alguns detalhes sobre mim e o contato com a T
 Tecnologias utilizadas: Vite,React,Tailwind e Typescript.
 
 Extensões npm:
-react axios
-react icons
-emailjs 
-react aos
-react type animation
+react axios,
+react icons,
+emailjs ,
+react aos,
+react type animation,
