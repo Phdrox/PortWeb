@@ -13,6 +13,7 @@ import { FaPython } from "react-icons/fa";
 import Footer from "./components/Footer";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import Aos from 'aos';
+import Projects from "./components/Projects"
 import 'aos/dist/aos.css';
 
 
@@ -65,6 +66,7 @@ useEffect(()=>{axios.get(' https://api.github.com/users/Phdrox')
       <Skill name="Python" props={<FaPython className='border-2 p-2 border-green-400 rounded-full w-24 h-24 '/>} difficult="Básico"/>
       <Skill name="Typescript" props={<SiTypescript className='border-2 p-2 border-green-400 rounded-full w-24 h-24 '/>} difficult="Básico"/>
     </div>
+    <Projects/>
     <Footer />
    </div>
   )

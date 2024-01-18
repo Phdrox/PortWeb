@@ -36,7 +36,7 @@ function Header() {
              
              ' >Entre em contato</a>
             
-            <a className=' rounded-full border-white  transition-color duration-300  solid border-2 p-4 w-64 hover:bg-white hover:text-black' href='/Currículo.docx' download>Currículo</a>
+            <a className=' rounded-full border-white  transition-color duration-300  solid border-2 p-4 w-64 hover:bg-white hover:text-black' href='/Currículo.pdf' download>Currículo</a>
         </div>
 
        </div>
